@@ -34,7 +34,7 @@ else:
     #index of joke chosen
     random_num = randint(0, num_jokes)
     if num_jokes == 1:
-        print("I've got one joke about {}. Here it is: \n{}".format(topic, data['results'][0]['joke']))
+        print("I've got one joke about a {}. Here it is: \n{}".format(topic, data['results'][0]['joke']))
     else:
         print("I've got {} jokes about {}. Here's one: \n{}".format(num_jokes, topic, data['results'][random_num]['joke']))
 
